@@ -1,4 +1,4 @@
-package sample
+package main
 
 import (
     "encoding/csv"
@@ -7,7 +7,7 @@ import (
     "strings"
 )
 
-func Sample() {
+func main() {
     // テスト用文字列
     str := "test,テスト\nHello,こんにちは"
 
