@@ -9,9 +9,13 @@ import (
 
 func main(){
   lines := []string{
-    "abc, abc",
-    "def, def",
-  }
+  "名前,部署",
+  "山田,マーケ",
+  "田中,人事",
+  // "名前,部署
+  // 山田,マーケ
+  // 田中,人事"
+ }
   csvStr := strings.Join(lines, "\n")
   r := csv.NewReader(strings.NewReader(csvStr))
   for {

@@ -24,7 +24,6 @@ func main() {
 		} else if err != nil {
   		panic(err)
   	}
-
-  	fmt.Printf("%#v", record)
+    fmt.Printf("record0[%s] record1[%s]\n", record[0], record[1])
   }
 }
