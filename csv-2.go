@@ -18,7 +18,7 @@ func main() {
 	reader := csv.NewReader(file)
 
 	for {
-		record, err := reader.Read() // 1行読み出す  →スライスになる
+		record, err := reader.Read() // 1行読み出す  →スライス
 		if err == io.EOF {
 			break
 		} else if err != nil {
